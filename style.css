@@ -1,0 +1,256 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;400;700;800&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 10px;
+  background-color: #edeef0;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  padding: 10px;
+}
+
+nav ul li {
+  margin: 0 20px;
+}
+
+.logo-text {
+  font-size: 3em;
+  font-weight: 700;
+  color: #f05136;
+}
+
+.nav-link {
+  font-size: 1.8em;
+  font-weight: 500;
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+}
+
+.nav-link:hover {
+  color: #f05136;
+}
+
+#home {
+  background: black;
+  color: white;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+}
+
+header div p {
+  font-size: 2.5em;
+  font-weight: 200;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-weight: 800;
+}
+
+h1 {
+  font-size: 5em;
+}
+
+h2 {
+  font-size: 4em;
+  font-weight: 500;
+}
+
+h3 {
+  font-size: 2.5em;
+  font-weight: 600;
+}
+
+h4 {
+  font-size: 1.8em;
+}
+
+.link-button {
+  text-decoration: none;
+  text-align: center;
+  background: #f05136;
+  cursor: pointer;
+  font-weight: 100;
+  letter-spacing: 0.5px;
+  color: white;
+  font-size: 1.8em;
+  padding: 10px;
+  border-radius: 5%;
+  border-color: black;
+}
+
+.link-button:hover {
+  color: white;
+}
+
+#bio {
+  display: flex;
+  align-items: center;
+}
+
+#bio article * {
+  margin: 20px;
+}
+
+.break {
+  display: block;
+}
+
+#bio img {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  margin: 100px;
+}
+
+#bio p {
+  font-size: 1.5em;
+}
+
+hr {
+  width: 400px;
+
+}
+
+/*
+#portfolio{
+    background: url(./asserts/profile-photo.jpg);
+    background-color: black;
+    color: white;
+}
+*/
+
+#portfolio {
+  background: black;
+  color: white;
+  display: flex;
+  /*flex-direction: column;
+    align-items: center;
+    padding: 50px;*/
+}
+
+#portfolio,
+#skills {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px;
+}
+
+#portfolio div {
+  display: flex;
+  justify-content: space-around;
+  margin: 10px 0;
+  width: 100%;
+  line-height: 2em;
+}
+
+#portpolio h3,
+p {
+  font-size: 1.5em;
+  margin-bottom: 20px;
+  font-weight: 500;
+}
+
+#portfolio div article {
+  background: white;
+  color: black;
+  height: 200px;
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+  border-radius: 10%;
+}
+
+#portfolio div article * {
+  padding: 0 5px;
+}
+
+#skills-container {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  background: #edeef0;
+  color: black;
+}
+
+#skills-container div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#skills ul {
+  list-style: none;
+  font-size: 1.5em;
+}
+
+#skills ul li {
+  margin: 10px 0;
+}
+
+progress[value] {
+  /* Reset the default appearance */
+  -webkit-appearance: none;
+  appearance: none;
+
+  width: 350px;
+  height: 10px;
+}
+
+progress[value]::-webkit-progress-bar {
+  background-color: #edeef0;
+  border-radius: 2px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25) inset;
+}
+
+::-webkit-progress-value {
+  background-color: #f05136;
+}
+
+#contact {
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 0;
+}
+
+.input {
+  line-height: 2em;
+  width: 350px;
+  border-radius: 3px;
+  border-color: black;
+  margin: 10px 0;
+}
+
+#contact form input:last-child {
+  margin: 30px;
+}
+
+#contact form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
